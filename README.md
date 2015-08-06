@@ -1,6 +1,6 @@
 # FFT Demonstration Code
 
-Scanned PDF notes and some example code using Fast Fourier Transforms in python
+Scanned PDF notes and some example code using Fast Fourier Transforms in python. scanned_FFT_notes.pdf is the file with the PDF notes. The file amplitude_and_power_spectrum.py is a single python function that illustrates using SciPy's fft function and properly normalizing it for two common use cases discussed in the PDF notes and in the examples below.
 
 # Sine Wave Ampliude Spectrum
 
