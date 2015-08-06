@@ -36,8 +36,8 @@ Another important application of the FFT is filtering signals. This example impl
 %run lowpass_cosine_with_fft.py
 ```
 
-![Transfer Function](plot_images/fitler_transfer_function.png?raw=true)
-![Filter Transient](plot_images/fitler_example_data_with_ringing.png?raw=true)
-![No Transient and High Noise](plot_images/fitler_example_data_noisy.png?raw=true)
+![Transfer Function](plot_images/filter_transfer_function.png?raw=true)
+![Filter Transient](plot_images/filter_example_data_with_ringing.png?raw=true)
+![No Transient and High Noise](plot_images/filter_example_data_noisy.png?raw=true)
 
 
