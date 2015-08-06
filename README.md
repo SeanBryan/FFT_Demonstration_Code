@@ -12,5 +12,5 @@ One possible normalization convention for a FFT spectrum is to normalize such th
 
 This will yield the following plots, showing the single-frequency signal with a DC offset, and the spectrum which correctly reconstructs the DC offset and the signal's amplitude and phase.
 
-![Sine Wave Signal](plot_images/sinewave_signal_signal.png?raw=true)
+![Sine Wave Signal](plot_images/sinewave_signal_timestream.png?raw=true)
 ![Sine Wave Spectrum](plot_images/sinewave_signal_spectrum.png?raw=true)
