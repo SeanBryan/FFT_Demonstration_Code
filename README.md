@@ -1,6 +1,8 @@
 # FFT Demonstration Code
 
-This repository contains scanned PDF notes and some example code about using Fast Fourier Transforms to analyze data in python. scanned_FFT_notes.pdf is the file with the PDF notes. The file amplitude_and_power_spectrum.py is a single python function that illustrates using SciPy's fft function and properly normalizing it for two common use cases discussed in the PDF notes and in the examples below.
+This repository contains scanned PDF notes and some example code about using Fast Fourier Transforms (FFT) to analyze data in python. FFTs allow you to extract the amplitude and phase of purely periodic signals in data, measure the total power contained in a dataset across a broad bandwidth, or filter out noise from data to create a low-noise version of a dataset.
+
+scanned_FFT_notes.pdf is the file with PDF notes discussing the math basics of the algorithm. The file amplitude_and_power_spectrum.py is a single python function that illustrates using SciPy's fft function and properly normalizing it for two common use cases discussed in the PDF notes and in the examples below.
 
 # Sine Wave Ampliude Spectrum
 
