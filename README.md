@@ -4,6 +4,10 @@ This repository contains scanned PDF notes and some example code about using Fas
 
 scanned_FFT_notes.pdf contains notes discussing the math basics of the FFT algorithm. The file amplitude_and_power_spectrum.py is a single python function that illustrates using SciPy's fft function and properly normalizing it for two common use cases discussed in the PDF notes and in the examples below.
 
+By the way, the book "Numerical Recipes in C" has an excellent two chapters about the FFT algorithm. I highly reccomend reading them carefully at some point if you find yourself using the FFT algorithm often in your work. It's in the library, and an earlier edition is in the public domain which is really great. Here's a link to a pdf of that version:
+
+http://www2.units.it/ipl/students_area/imm2/files/Numerical_Recipes.pdf
+
 # Sine Wave Ampliude Spectrum
 
 One possible normalization convention for a FFT spectrum is to normalize such that each bin contains the peak amplitude of the sine wave corresponding to that frequency. This is good for signals at a single frequency, but it's a confusing convention for broadband signals or broadband noise. To see a demonstration of this convention, run its demonstration code:
